@@ -1,0 +1,97 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+*{
+    font-family: "Inter";
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:hsl(0, 0%, 8%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image img{
+    border-radius: 24px;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:15px;
+}
+.name{
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.nameAndPlace{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.place{
+    color: hsl(75, 94%, 57%);
+    font-size: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 10px;
+    
+}
+
+button{
+    font-size: 10px;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    background-color:  hsl(0, 0%, 20%);
+    border-style: none;
+}
+
+.quote{
+    color:  hsl(0, 0%, 63%);
+    font-size: 13px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:hsl(75, 94%, 57%) ;
+    color: hsl(0, 0%, 20%);
+}
